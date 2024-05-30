@@ -26,7 +26,7 @@ export default function Carusel(movie) {
         <Carousel.Item key={movie.id} style={{ height: "80vh" }}>
           <img
             className="d-block w-100"
-            src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}
+            src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}  //https://image.tmdb.org/t/p/original${movieDetails.backdrop_path
             alt={movie.title}
             style={{
               height: "100%",
